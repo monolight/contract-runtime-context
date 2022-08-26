@@ -1,0 +1,14 @@
+{
+    "name": "ml/contract-runtime-context",
+    "description": "Contract interface for setting the Symfony Runtime Context",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ML\\Contracts\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
