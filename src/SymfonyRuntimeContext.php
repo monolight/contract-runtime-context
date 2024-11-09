@@ -4,7 +4,7 @@ namespace ML\Contracts;
 interface SymfonyRuntimeContext
 {
     /**
-     * @param array $context
+     * @param array<string,mixed> $context
      *
      * @return void
      *
